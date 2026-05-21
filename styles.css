@@ -897,3 +897,50 @@ html, body { max-width: 100%; overflow-x: hidden; }
   background: linear-gradient(180deg, rgba(255,248,238,.20), rgba(255,248,238,.08));
   color: #fff8ee;
 }
+
+/* Hero rating badges: aligned Google + Studio24 */
+.hero .rating-strip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border: 1px solid rgba(255,248,238,.20);
+  background: rgba(255,248,238,.10);
+  border-radius: 999px;
+  backdrop-filter: blur(14px);
+}
+.hero .rating-strip span {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 40px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: rgba(31,27,23,.34);
+  color: var(--cream);
+  font-size: 14px;
+  line-height: 1;
+}
+.hero .rating-strip span::after { content: none !important; }
+.hero .rating-strip strong {
+  font-weight: 850;
+  letter-spacing: .01em;
+  color: #fff8ee;
+}
+.hero .rating-strip em {
+  font-style: normal;
+  color: rgba(255,248,238,.76);
+  font-weight: 650;
+}
+@media (max-width: 640px) {
+  .hero .rating-strip {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 22px;
+  }
+  .hero .rating-strip span {
+    justify-content: center;
+    padding: 0 10px;
+  }
+}
