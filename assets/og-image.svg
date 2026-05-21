@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FAF6F1"/>
+      <stop offset=".55" stop-color="#E8DDD0"/>
+      <stop offset="1" stop-color="#1F1B17"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="968" cy="130" r="220" fill="#D80D43" opacity=".12"/>
+  <text x="86" y="230" font-family="Georgia, serif" font-size="92" fill="#1F1B17" letter-spacing="6">AvangardBeauty</text>
+  <text x="90" y="310" font-family="Arial, sans-serif" font-size="34" fill="#6B5D4F">Професионален фризьорски салон в София</text>
+  <text x="90" y="388" font-family="Georgia, serif" font-size="48" fill="#D80D43">Стилът, който заслужаваш.</text>
+  <text x="90" y="486" font-family="Arial, sans-serif" font-size="30" fill="#1F1B17">★ 5.0 · 16 отзива в Google · +359 89 350 9632</text>
+</svg>
